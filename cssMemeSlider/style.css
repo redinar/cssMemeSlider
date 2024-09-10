@@ -1,0 +1,10 @@
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+	height: 35rem;
+	margin: 10rem auto 0;
+	width: 70rem;
+}
