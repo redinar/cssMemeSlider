@@ -1,10 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
+}
+
+body {
+	background-color: cadetblue;
 }
 
 .wrapper {
 	height: 35rem;
 	margin: 10rem auto 0;
 	width: 70rem;
+}
+
+.slider {
+	height: inherit;
+	overflow: hidden;
+	width: inherit;
+	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
 }
