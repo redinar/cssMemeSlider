@@ -15,14 +15,34 @@ body {
 }
 
 .wrapper {
-	height: 35rem;
+	height: 40rem;
 	margin: 10rem auto 0;
 	width: 70rem;
 }
 
 .slider {
+	display: flex;
+	column-gap: 200rem;
 	height: inherit;
 	overflow: hidden;
 	width: inherit;
-	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
 }
+
+.slides {
+	height: 40rem;
+	width: 70rem;
+	order: 2;
+	transform: translate(70rem);
+	transition: transform ease-in-out .5s;
+}
+
+.slides img{
+	margin-bottom: 1.5rem;
+	box-shadow: 0 0 2rem rgba(0, 0, 0, .5);
+}
+
+.slides span{
+	color: white;
+	font-size: 2rem;
+}
+
